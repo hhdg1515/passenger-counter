@@ -1,38 +1,66 @@
 body {
-    background-image: url("station.jpg");
-    background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+section {
+  background-color: #264653;
+  text-align: center;
+  max-width: 30rem;
+  margin: 3rem auto;
+  padding: 1rem 0rem;
+  border-radius: 25px;
+  color: white;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  background-color: white;
+  padding: 1rem 7rem;
+  margin: 1rem auto;
+  width: 3rem;
+  color: black;
+  border-radius: 25px;
 }
 
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 10px;
+  border: none;
+  margin: 0.1rem 0.1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-image: linear-gradient(to right, #ff9100 50%, #ff9e00 50%);
+  background-size: 100% 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-#increment-btn {
-    background: darkred;
+button:hover {
+  opacity: 80%;
 }
 
-#save-btn {
-    background: darkgreen;
+.save {
+  background: none;
+  background-color: #2a9d8f;
 }
 
+.clear {
+  background: none;
+  background-color: #e76f51;
+}
+
+.misc-btn {
+  font-size: 1.2rem;
+}
+
+.entries {
+  max-width: 80%;
+  margin: 1rem auto;
+}
